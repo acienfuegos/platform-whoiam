@@ -15,20 +15,16 @@ import {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name = 'Karen Wazowski';
-  job = 'Search Engineer';
-  description = 'Karen has been working with Empathy since 2017 and she is a lovely developer interested in animals and extreme sports. Ask her about any issue you face and she will solve the problem just in minutes.';
-  smallImage = 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80';
-  bigImage = 'https://images.unsplash.com/photo-1569012871812-f38ee64cd54c';
+  name = 'Artemio Cienfuegos';
+  job = 'IT Engineer';
+  description = 'Artemio has been joined Empathy in May 2021 and he is interested in sports, like cycling or running.';
+  smallImage = 'assets/img/Jermoso.jpeg';
+  bigImage = 'assets/img/Ski.jpeg';
 
   // Icons
   rrss = [
-    { icon: faLinkedin, url: 'https://www.linkedin.com/in/emily-wazowski' },
-    { icon: faInstagram, url: 'https://www.instagram.com/emily-wazowski' },
-    { icon: faTwitter, url: 'https://twitter.com/emily-wazowski' },
-    { icon: faFacebook, url: 'https://www.facebook.com/emily-wazowski' },
-    { icon: faGithub, url: 'https://github.com/emily-wazowski' },
-    { icon: faSpotify, url: 'https://open.spotify.com/user/emily-wazowski' }
+    { icon: faLinkedin, url: 'https://www.linkedin.com/in/artemio-cienfuegos-76882563/' },
+    { icon: faGithub, url: 'https://github.com/acienfuegos' },
   ]
 
   navigateTo(url: string) {
