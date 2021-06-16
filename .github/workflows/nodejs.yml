@@ -19,7 +19,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install -g @angular/cli
     - run: npm install
+<<<<<<< HEAD
     - run: ng deploy --base-href=/whoiam/ --name="${{ secrets.USERNAME }}" --email=${{ secrets.EMAIL }}
+=======
+    - run: ng deploy --base-href=/platform-whoiam/ --name="${{ secrets.USERNAME }}" --email=${{ secrets.EMAIL }}
+>>>>>>> b4628e8c5a942ec1c0980e2236318469a7f7ae54
       env:
         CI: true
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
