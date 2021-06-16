@@ -17,7 +17,7 @@ import {
 export class AppComponent {
   name = 'Artemio Cienfuegos';
   job = 'IT Engineer';
-  description = 'Artemio has been joined Empathy in May 2021 and he is interested in sports, like cycling or running.';
+  description = 'Mountains and more Mountains.';
   smallImage = 'assets/img/Jermoso.jpeg';
   bigImage = 'assets/img/Ski.jpeg';
 
